@@ -75,7 +75,7 @@ const DropZone = ({ children, handleDropFiles }: Props) => {
             justifyContent: "center",
           }}
         >
-          Drop files here to upload...
+          Đưa file vào để đẩy lên...
         </div>
       )}
       {children}

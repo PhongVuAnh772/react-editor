@@ -117,7 +117,7 @@ function CommonLayers() {
               kind={KIND.tertiary}
               size={SIZE.mini}
             >
-              Bring to front
+              Chuyển Layer đã chọn ra trước
             </Button>
             <Button
               startEnhancer={<SendToBack size={24} />}
@@ -125,11 +125,11 @@ function CommonLayers() {
               kind={KIND.tertiary}
               size={SIZE.mini}
             >
-              Send to back
+              Chuyển Layer đã chọn ra sau
             </Button>
           </Block>
 
-          <Block
+          {/* <Block
             $style={{
               display: "flex",
               fontSize: "12px",
@@ -160,7 +160,7 @@ function CommonLayers() {
               }}
             />
             <Block>Clip to frame</Block>
-          </Block>
+          </Block> */}
         </Block>
       )}
       returnFocus

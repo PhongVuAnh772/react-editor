@@ -74,7 +74,7 @@ export default function () {
             },
           }}
         >
-          Computer
+          Đẩy ảnh lên
         </Button>
       </Block>
       <Scrollable>

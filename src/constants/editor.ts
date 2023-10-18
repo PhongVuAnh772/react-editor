@@ -3538,19 +3538,19 @@ export const textComponents = [textComponent1, textComponent2]
 export const sampleFrames = [
   {
     id: 1,
-    name: "Presentation (4:3)",
+    name: "Bản thuyết trình (4:3)",
     width: 1024,
     height: 768,
     unit: "px",
-    preview: "https://ik.imagekit.io/scenify/social-presentation-4x3.svg",
+    preview: "https://visme.co/blog/wp-content/uploads/2016/04/how-to-start-a-presentation-header.jpg",
   },
   {
     id: 2,
-    name: "Presentation (16:9)",
+    name: "Bản thuyết trình (16:9)",
     width: 1920,
     height: 1080,
     unit: "px",
-    preview: "https://ik.imagekit.io/scenify/social-presentation-16x9.svg",
+    preview: "https://visme.co/blog/wp-content/uploads/2016/04/how-to-start-a-presentation-header.jpg",
   },
   {
     id: 3,
@@ -3558,11 +3558,11 @@ export const sampleFrames = [
     width: 1080,
     height: 1920,
     unit: "px",
-    preview: "https://ik.imagekit.io/scenify/social-social-media-story.svg",
+    preview: "https://media.sproutsocial.com/uploads/2021/06/Insights_Blog_SocialMediaStories3.png",
   },
   {
     id: 4,
-    name: "Instagram Post",
+    name: "Bài đăng Instagram",
     width: 1080,
     height: 1080,
     unit: "px",
@@ -3570,7 +3570,7 @@ export const sampleFrames = [
   },
   {
     id: 5,
-    name: "Facebook Post",
+    name: "Bài đăng Facebook",
     width: 1200,
     height: 1200,
     unit: "px",
@@ -3578,7 +3578,7 @@ export const sampleFrames = [
   },
   {
     id: 6,
-    name: "Facebook Cover / Page Cover",
+    name: "Ảnh bìa / Ảnh bìa trang",
     width: 1702,
     height: 630,
     unit: "px",
@@ -3586,7 +3586,7 @@ export const sampleFrames = [
   },
   {
     id: 7,
-    name: "Facebook Event Cover",
+    name: "Ảnh bìa sự kiện Facebook",
     width: 1920,
     height: 1080,
     unit: "px",
@@ -3594,7 +3594,7 @@ export const sampleFrames = [
   },
   {
     id: 8,
-    name: "YouTube Channel Art",
+    name: "Hình ảnh kênh YouTube",
     width: 2560,
     height: 1440,
     unit: "px",
@@ -3602,7 +3602,7 @@ export const sampleFrames = [
   },
   {
     id: 9,
-    name: "YouTube Thumbnail",
+    name: "Hình thu nhỏ của YouTube",
     width: 1280,
     height: 720,
     unit: "px",
@@ -3610,7 +3610,7 @@ export const sampleFrames = [
   },
   {
     id: 10,
-    name: "Twitter Post",
+    name: "Bài đăng Twitter",
     width: 1200,
     height: 675,
     unit: "px",

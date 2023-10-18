@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@layerhub-io/react": "^0.2.0",
+    "@layerhub-io/react": "^0.2.6",
     "@layerhub-io/react-custom-scrollbar": "^0.0.1",
     "@layerhub-io/use-timer": "^0.1.1",
     "@reduxjs/toolkit": "^1.8.1",
@@ -31,8 +31,8 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",
     "resize-observer-polyfill": "^1.5.1",
-    "styletron-engine-atomic": "1.5.0-beta.2",
-    "styletron-react": "6.1.0-beta.2",
+    "styletron-engine-atomic": "^1.6.2",
+    "styletron-react": "^6.1.1",
     "use-latest": "^1.2.1"
   },
   "devDependencies": {

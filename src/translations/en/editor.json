@@ -1,13 +1,13 @@
 {
     "panels": {
         "panelsList": {
-            "templates": "Templates",
-            "customize": "Customize",
-            "elements": "Elements",
-            "images": "Images",
+            "templates": "Mẫu thiết kế",
+            "customize": "Chỉnh sửa",
+            "elements": "Hình dạng",
+            "images": "Ảnh có sẵn",
             "videos": "Videos",
-            "uploads": "Uploads",
-            "text": "Text",
+            "uploads": "Đẩy ảnh lên",
+            "text": "Kiểu chữ",
             "graphics": "Graphics",
             "pixabay": "Pixabay",
             "layers": "Layers"

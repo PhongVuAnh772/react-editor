@@ -51,7 +51,7 @@ export default function () {
           padding: "1.5rem",
         }}
       >
-        <Block>Customize</Block>
+        <Block>Chỉnh sửa</Block>
 
         <Block onClick={() => setIsSidebarOpen(false)} $style={{ cursor: "pointer", display: "flex" }}>
           <AngleDoubleLeft size={18} />
@@ -74,7 +74,7 @@ export default function () {
                 fontSize: "14px",
               }}
             >
-              <div>Background color</div>
+              <div>Màu nền</div>
               <div
                 style={{
                   display: "grid",
@@ -224,7 +224,7 @@ function ResizeTemplate() {
           },
         }}
       >
-        Resize template
+        Chỉnh kích thước
       </Button>
       <Modal
         onClose={() => setIsOpen(false)}
@@ -254,7 +254,7 @@ function ResizeTemplate() {
               fontWeight: 500,
             }}
           >
-            Choose a format and resize your template.
+            Chọn kích thước bạn muốn chỉnh
           </Block>
           <Tabs
             overrides={{
@@ -278,7 +278,7 @@ function ResizeTemplate() {
               setActiveKey(activeKey)
             }}
           >
-            <Tab title="Preset size">
+            <Tab title="Kích thước chọn">
               <Block $style={{ width: "100%", height: "400px" }}>
                 <Scrollbar>
                   <Block $style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr" }}>
@@ -303,7 +303,7 @@ function ResizeTemplate() {
                             justifyContent: "center",
                           }}
                         >
-                          <img src={sampleFrame.preview} />
+                          <img src={sampleFrame.preview} style={{ width: 80,height:80 }}/>
                         </Block>
                         <Block $style={{ fontSize: "13px", textAlign: "center" }}>
                           <Block $style={{ fontWeight: 500 }}>{sampleFrame.name}</Block>
@@ -317,7 +317,7 @@ function ResizeTemplate() {
                 </Scrollbar>
               </Block>
             </Tab>
-            <Tab title="Custom size">
+            <Tab title="Kích thước tự chỉnh">
               <Block $style={{ padding: "2rem 2rem" }}>
                 <Block
                   $style={{ display: "grid", gridTemplateColumns: "1fr 50px 1fr", alignItems: "end", fontSize: "14px" }}
@@ -338,6 +338,8 @@ function ResizeTemplate() {
                     }}
                     size={SIZE.compact}
                     kind="tertiary"
+                    onClick={() => setDesiredFrame({ height: desiredFrame.width, width: desiredFrame.height })}
+
                   >
                     <SwapHorizontal size={24} />
                   </Button>
@@ -354,7 +356,7 @@ function ResizeTemplate() {
         </Block>
         <Block $style={{ display: "flex", alignItems: "center", justifyContent: "center", paddingBottom: "2rem" }}>
           <Button disabled={!isEnabled} onClick={applyResize} style={{ width: "190px" }}>
-            Resize template
+           Chọn
           </Button>
         </Block>
       </Modal>

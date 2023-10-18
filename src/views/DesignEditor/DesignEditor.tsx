@@ -18,7 +18,7 @@ function DesignEditor() {
         {
           NONE: <SelectEditor />,
           PRESENTATION: <PresentationEditor />,
-          VIDEO: <VideoEditor />,
+          VIDEO: <SelectEditor />,
           GRAPHIC: <GraphicEditor />,
         }[editorType]
       }

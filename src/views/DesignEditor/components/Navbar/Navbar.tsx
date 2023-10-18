@@ -13,14 +13,17 @@ import { loadTemplateFonts } from "~/utils/fonts"
 import { loadVideoEditorAssets } from "~/utils/video"
 import DesignTitle from "./DesignTitle"
 import { IDesign } from "~/interfaces/DesignEditor"
+// import Ezpics
 
 const Container = styled<"div", {}, Theme>("div", ({ $theme }) => ({
   height: "64px",
   background: $theme.colors.black,
-  display: "grid",
+  display: "flex",
   padding: "0 1.25rem",
   gridTemplateColumns: "240px 1fr 240px",
   alignItems: "center",
+  flexDirection: "row",
+  justifyContent: 'space-between'
 }))
 
 export default function () {
@@ -264,8 +267,8 @@ export default function () {
         <div style={{ color: "#ffffff" }}>
           <Logo size={36} />
         </div>
-        <DesignTitle />
-        <Block $style={{ display: "flex", alignItems: "center", gap: "0.5rem", justifyContent: "flex-end" }}>
+        {/* <DesignTitle /> */}
+        <Block $style={{  alignSelf: "center", gap: "0.5rem",alignItems: "center" }}>
           <input
             multiple={false}
             onChange={handleFileInput}
@@ -286,7 +289,7 @@ export default function () {
               },
             }}
           >
-            Import
+            Nhập dữ liệu JSON
           </Button>
 
           <Button
@@ -301,16 +304,17 @@ export default function () {
               },
             }}
           >
-            Export
+            Xuất dữ liệu JSON
           </Button>
           <Button
-            size="compact"
+            size="mini"
             onClick={() => setDisplayPreview(true)}
             kind={KIND.tertiary}
             overrides={{
               StartEnhancer: {
                 style: {
                   marginRight: "4px",
+                  paddingTop: "20px",
                 },
               },
             }}

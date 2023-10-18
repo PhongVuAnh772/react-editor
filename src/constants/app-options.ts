@@ -23,19 +23,8 @@ export const BASE_ITEMS = [
     id: "text",
     name: "Text",
   },
-  {
-    id: "graphics",
-    name: "Graphics",
-  },
+  
 
-  {
-    id: "pixabay",
-    name: "Pixabay",
-  },
-  {
-    id: "layers",
-    name: "Layers",
-  },
 ]
 
 export const VIDEO_PANEL_ITEMS = [

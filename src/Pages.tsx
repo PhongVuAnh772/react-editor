@@ -60,13 +60,13 @@ export default function Pages() {
                   }}
                   key={page.id}
                 >
-                  Page {index}
+                  Trang {index}
                 </div>
               )
             })}
           </div>
 
-          <Button onClick={handleAddPage}>Add Page</Button>
+          <Button onClick={handleAddPage}>Thêm trang mới</Button>
         </div>
       </Drawer>
     </ThemeProvider>
